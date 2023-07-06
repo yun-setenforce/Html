@@ -427,5 +427,39 @@
                 <div></div>
             </div>
         </article>
+
+        <article>
+            <style>
+                .box12{
+                    position:relative;
+                    width: 300px;
+                    height: 300px;
+                    border: 1px dashed black;
+                    box-sizing: border-box;
+                }
+                .box12 > div{
+                    float:right;
+                    width:100px;
+                    height: 100px;
+                }
+                .box12 > div:nth-child(1){ background: red;}
+                .box12 > div:nth-child(2){ background: green;clear:right;}
+                .box12 > div:nth-child(3){ background: blue;}
+                .box12 > div:nth-child(4){ background: orange; clear:right;}
+                .box12 > div:nth-child(5){ background: pink;}
+                .box12 > div:nth-child(6){ background: yellowgreen; width:98px !important;}
+                
+                
+            </style>
+            <h4>12.다음과 같이 배치하시오.</h4>
+            <div class="box12">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </article>
     </body>
 </html>
